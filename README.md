@@ -1,21 +1,37 @@
-# espruinoVSCode README
+# Pip-Boy VSCode
 
-Work with Espruino devices directly in VSCode.
+**Seamlessly interact with Pip-Boy devices directly within Visual Studio Code.**
 
 ## Features
 
-Currently it supports a limited feature set:
+This extension currently supports a limited feature set, including:
 
-* Connect to usb/serial and bluetooth devices
-* Interact using terminal
-* See the board information (version, flash, etc)
-* See and interact with files stored on the device
-* Upload a file to the device
+- **Terminal Interaction**: Communicate with your Pip-Boy device through the integrated terminal.
+- **Board Information**: Access essential details such as version, flash memory, and more.
+- **File Management**: View and interact with files stored on the device, including uploading new files.
 
-## Extension Settings
+## Installation
 
-Most of the Espruino configs are exposed as settings.
+To install the Pip-Boy VSCode extension:
+
+1. Open Visual Studio Code.
+2. Navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+3. Search for "Pip-Boy VSCode" and click "Install".
+
+## Usage
+
+- Connect your Pip-Boy device via USB.
+- Open the terminal in VSCode to start interacting with your device.
+- Use the commands provided in the extension to manage files and view board information.
+
+## Credits
+
+This extension is a modified version of the excellent [EspruinoVSCode](https://github.com/mariusgundersen/EspruinoVSCode) by Marius Gundersen.
 
 ## Known Issues
 
-This is very early stuff, many things might not work and more things have not been properly tested.
+- This is an early version of the extension; some features may not work as expected, and further testing is ongoing.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
